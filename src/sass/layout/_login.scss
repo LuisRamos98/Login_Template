@@ -36,6 +36,27 @@
     }
 }
 
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    input{
+        border: none;
+        border-bottom: 1px solid var.$grisOscuro;   
+        &:focus{
+            border-bottom: 2px solid var.$azulOscuro;
+            outline: none; 
+        }
+        
+    }
+    label {
+        color: var.$azul;
+        font-family: var.$fuente_principal;
+        font-size: 1.5rem;
+        padding: 1rem .5rem;
+    }
+}
+
 
 .btn-enviar{
     background-color: var.$azul;
