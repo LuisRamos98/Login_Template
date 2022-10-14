@@ -1,0 +1,31 @@
+{
+  "name": "curso-de-html-y-css",
+  "version": "1.0.0",
+  "description": "Practica SASS, HTML, CSS",
+  "main": "index.js",
+  "scripts": {
+    "css": "gulp css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisRamos98/Inicio_Sesion_Plantilla.git"
+  },
+  "keywords": [
+    "SASS",
+    "HTML",
+    "GULP"
+  ],
+  "author": "Luis Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisRamos98/Inicio_Sesion_Plantilla/issues"
+  },
+  "homepage": "https://github.com/LuisRamos98/Inicio_Sesion_Plantilla#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  }
+}

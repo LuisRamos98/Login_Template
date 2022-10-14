@@ -1,0 +1,16 @@
+@use 'base/variables' as var;
+
+.footer {
+    display: grid;
+    justify-items: center;
+    a{
+        img{
+            height: 5rem;
+        }
+    }
+
+    p{
+        font-size: 1.3rem;
+        color: var.$grisMedio;
+    }
+}

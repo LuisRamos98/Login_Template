@@ -1,0 +1,13 @@
+@use 'base/variables' as var;
+
+.header {
+    text-align: center;
+    h1{
+        color: var.$grisOscuro;
+        margin-top: 5rem;
+    }
+
+    h3{
+        color: var.$azul
+    }
+}

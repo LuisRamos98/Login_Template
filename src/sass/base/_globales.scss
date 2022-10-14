@@ -1,0 +1,35 @@
+@use 'base/variables' as var;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var.$gris;
+}
+
+h1,h2,h3{
+    font-weight: 300;
+    font-family: var.$fuente_principal;
+
+}
+
+a{
+    text-decoration: none;
+    color: var.$azul;
+}
+
+img {
+    max-width: 100%;
+}
+.contenedor{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
